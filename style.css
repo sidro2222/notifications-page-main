@@ -1,0 +1,135 @@
+body {
+
+    max-width: 600px;
+    height: 900px;
+    box-sizing: border-box;
+    margin: auto;
+    background-color: aliceblue;
+    font-family: Plus Jakarta Sans;
+}
+
+.container {
+    max-width: 950px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.664);
+    border-radius: 0.1%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.singleBox {
+    max-width: 85%;
+    background-color: rgb(240, 251, 255);
+    margin: 10px auto;
+    padding: 18px;
+    display: grid;
+    grid-template-columns: 2fr 3fr 6fr 20px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    border-radius: 1%;
+
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 14em;
+}
+
+.clearall {
+    margin: 1px;
+    color: rgb(71, 19, 190);
+    text-decoration: none;
+    font-style: normal;
+}
+
+.clearall a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+
+
+}
+
+.Notifications {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+#number {
+    color: white;
+    background-color: rgb(71, 19, 190);
+    padding: 2px 6px;
+    margin: 2px 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.avatar img {
+    max-width: 60%;
+    margin: 2px auto;
+}
+
+.name {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.texte {
+    font-size: 12px;
+    flex-grow: calc(5);
+}
+
+a {
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.date {
+    font-size: 10px;
+    color: rgb(163, 161, 161);
+    margin: -5px 0 0 5px;
+    font-weight: 100;
+
+}
+
+.dote {
+    background-color: red;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    margin: 2px;
+}
+
+#special {
+    background-color: white;
+}
+
+.message {
+    background-color: rgb(227, 239, 250);
+    padding: 5px;
+}
+
+#spacial3,
+#spacial1,
+#spacial2 {
+    background-color: white;
+}
+
+.texte-spe {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    gap: 5px;
+}
+
+#yourpict {
+    max-width: 35%;
+    margin: 0 0 0 95px;
+    cursor: pointer;
+    ;
+}
