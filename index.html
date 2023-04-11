@@ -1,51 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Notifications page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/sidro2222/Notification_Page/main/style.css">
+    <title>Notification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Concert+One&family=Cookie&family=Expletus+Sans&family=Finlandica:wght@600&family=Montserrat:wght@100;800&family=Plus+Jakarta+Sans:wght@400;800&family=Roboto:wght@100;400&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
+    <div class="container">
+        <div class="title">
+            <div class="Notifications">
+                <p> Notifications <span id="number"> 3 </span></p>
+            </div>
+            <div class="clearall">
+                <a href="#" id="allclear"> Mark all as read</a>
+            </div>
+        </div>
+        <div class="singleBox" id="newfeed1">
+            <div class="avatar"> <img src="/notifications-page-main/assets/images/avatar-mark-webber.webp" alt=""></div>
+            <div class="name">
+                <p> Mark Webber</p>
+                <div class="date"> 5m Ago</div>
+            </div>
+            <div class="texte">reacted to your news <a href="#">My new game today</a></div>
+            <div class="dote"></div>
 
-  Notifications 3
+        </div>
 
-  Mark all as read
+        <div class="singleBox" id="newfeed2">
+            <div class="avatar"> <img src="https://raw.githubusercontent.com/sidro2222/Notification_Page/main/images/avatar-angela-gray.webp" alt=""></div>
+            <div class="name">
+                <p> Angela gray</p>
+                <div class="date"> 5m Ago</div>
+            </div>
+            <div class="texte"> Foolowed you</div>
+            <div class="dote"></div>
 
-  Mark Webber reacted to your recent post My first tournament today!
-  1m ago
+        </div>
 
-  Angela Gray followed you
-  5m ago
+        <div class="singleBox" id="newfeed3">
+            <div class="avatar"> <img src="https://raw.githubusercontent.com/sidro2222/Notification_Page/main/images/avatar-jacob-thompson.webp>
+            </div>
+            <div class="name">
+                <p> jacob-thompson</p>
+                <div class="date"> 5m Ago</div>
+            </div>
+            <div class="texte">Has joined your Groupe <a href="#">Audiobooks club</a></div>
+            <div class="dote"></div>
 
-  Jacob Thompson has joined your group Chess Club
-  1 day ago
+        </div>
 
-  Rizky Hasanuddin sent you a private message
-  5 days ago
-  Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
-  I'm already having lots of fun and improving my game.
+        <div class="singleBox" id="special">
+            <div class="avatar"> <img src="https://raw.githubusercontent.com/sidro2222/Notification_Page/main/images/avatar-rizky-hasanuddin.webp" alt="">
+            </div>
+            <div class="name">
+                <p> Rizky-hasanuddin</p>
+                <div class="date"> 5m Ago</div>
+            </div>
+            <div class="texte">sent you a message <div class="message">
+                    <p> Hello how are you !!Hello how are you !!Hello how are you !!Hello how are you !!</p>
+                </div>
+            </div>
+        </div>
 
-  Kimberly Smith commented on your picture
-  1 week ago
+        <div class="singleBox" id="spacial1">
+            <div class="avatar"> <img src="https://raw.githubusercontent.com/sidro2222/Notification_Page/main/images/avatar-kimberly-smith.webp" alt="">
+            </div>
+            <div class="name">
+                <p> Kimberly-smith</p>
+                <div class="date"> 5m Ago</div>
+            </div>
+            <div class="texte-spe"> commented your picture <div> <img id="yourpict"
+                        src="/notifications-page-main/assets/images/image-chess.webp" alt=""></div>
+            </div>
 
-  Nathan Peterson reacted to your recent post 5 end-game strategies to increase your win rate
-  2 weeks ago
+        </div>
 
-  Anna Kim left the group Chess Club
-  2 weeks ago
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
+        <div class="singleBox" id="spacial2">
+            <div class="avatar"> <img src="https://raw.githubusercontent.com/sidro2222/Notification_Page/main/images/avatar-nathan-peterson.webp" alt="">
+            </div>
+            <div class="name">
+                <p> Nathan-peterson</p>
+                <div class="date"> 2weeks ago</div>
+            </div>
+            <div class="texte">reacted to your post <span id="poste"> Joe abercromby books</span></div>
+        </div>
+
+
+
+        <div class="singleBox" id="spacial3">
+            <div class="avatar"> <img src="https://raw.githubusercontent.com/sidro2222/Notification_Page/main/images/avatar-anna-kim.webp" alt="">
+            </div>
+            <div class="name">
+                <p> Anna-kim</p>
+                <div class="date"> 2weeks ago</div>
+            </div>
+            <div class="texte">no more books for this bitch!</div>
+        </div>
+
+    </div>
+
+    </div>
+    </div>
+
+
+    <script src="/notifications-page-main/app.js"></script>
 </body>
+
 </html>
